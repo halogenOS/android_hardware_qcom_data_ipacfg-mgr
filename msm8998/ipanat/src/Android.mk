@@ -10,6 +10,7 @@ include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../inc
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
+LOCAL_C_INCLUDES += hardware/qcom/msm8998/kernel-headers
 
 LOCAL_SRC_FILES := ipa_nat_drv.c \
                    ipa_nat_drvi.c
